@@ -52,7 +52,7 @@ class NetworkManager {
      */
     func addToRoster(member: Member, completion: @escaping (Member) -> Void) {
         // Specify the endpoint
-        let endpoint = "https://ioscourse-g3jtiqqehq-ue.a.run.app/"
+        let endpoint = "https://ios-course-backend.cornellappdev.com/api/members/"
 
         // Define the request body
         let parameters: Parameters = [
