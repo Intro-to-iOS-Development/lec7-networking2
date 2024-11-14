@@ -22,7 +22,7 @@ class NetworkManager {
      */
     func fetchRoster(completion: @escaping ([Member]) -> Void) {
         // Specify the endpoint
-        let endpoint = "https://ioscourse-g3jtiqqehq-ue.a.run.app/"
+        let endpoint = "https://ios-course-backend.cornellappdev.com/api/members/"
 
         // Create a decoder
         let decoder = JSONDecoder()
